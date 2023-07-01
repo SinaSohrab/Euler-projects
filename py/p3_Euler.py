@@ -14,3 +14,4 @@ for i in range(2, adad_aval):
                 if new == adad_aval:
                     break
             break
+        
