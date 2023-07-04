@@ -1,18 +1,8 @@
-def IsEven(n):
-    if n % 2 != 0:
-        return True
-    else:
-        return False
-
-
-first = 0
-secend = 0
-
-for i in range(2, 10):
-    if i % IsEven  :
-        print(i)
-        first = i
-        new = first + secend
-        secend = new
-        print("new", new)
-print(new)
+number=int(input("your number: "))
+for i in range(2, number):
+    if number % i == 0:
+        aval=False
+        
+        
+if aval:
+    print(i)
