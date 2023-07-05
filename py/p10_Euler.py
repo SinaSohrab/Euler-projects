@@ -1,18 +1,21 @@
+number=int(input("your number: "))
 
 def is_prim(n):
-    aval = True
-    for i in range(2, n/2):
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5) + 1):
         if n % i == 0:
-            aval = False
-    return aval
+            return False
+    return True
 
-firs=0
-secend=0
 
-for i in range(2,2000000):
+firs = 0
+secend = 0
+
+for i in range(2, number):
     if is_prim(i):
-        firs=i
-        sum=firs+secend
-        secend=sum
-        
+        firs = i
+        sum = firs + secend
+        secend = sum
+
 print(sum)
