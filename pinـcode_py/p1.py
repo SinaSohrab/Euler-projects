@@ -27,3 +27,4 @@ for ramz in range(0, 100000):
 
     if ramz_is_ok(ramz_digits):
         print(ramz)
+        
