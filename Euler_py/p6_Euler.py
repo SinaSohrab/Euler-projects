@@ -1,19 +1,15 @@
 number = int(input("your number: "))
 number += 1
 
-def moteghayer():
-    first = 0
-    secend = 0
+first=0
+secend=0
 
 for i in range(1, number):
-    if moteghayer(i):    
-        first = i
-        first = first**2
-        sum = first + secend
-        secend = sum
+    first = i
+    first = first**2
+    sum = first + secend
+    secend = sum
 
-print(sum)
-"""
 del first,secend
 first = 0
 secend = 0
@@ -26,4 +22,3 @@ for i in range(1, number):
 
 javab = new_sum - sum
 print(javab)
-"""
