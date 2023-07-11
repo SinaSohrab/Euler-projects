@@ -8,12 +8,12 @@ for i in range(1, number):
     first = i**2
     sum = first + sum
 
-print(sum)
 del first
 first = 0
 
 for i in range(1, number):
     new_sum = i + new_sum
+
 new_sum = new_sum**2
 javab = new_sum - sum
 print(javab)
