@@ -2,23 +2,18 @@ number = int(input("your number: "))
 number += 1
 
 first=0
-secend=0
-
+sum=0
+new_sum=0
 for i in range(1, number):
-    first = i
-    first = first**2
-    sum = first + secend
-    secend = sum
+    first = i**2
+    sum = first + sum
 
-del first,secend
+print(sum)
+del first
 first = 0
-secend = 0
 
 for i in range(1, number):
-    first = i
-    new_sum = first + secend
-    secend = new_sum
-    new_sum = new_sum**2
-
+    new_sum = i + new_sum
+new_sum = new_sum**2
 javab = new_sum - sum
 print(javab)
