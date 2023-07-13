@@ -1,18 +1,19 @@
 number = int(input("your number: "))
 number += 1
 
-first=0
-sum=0
-new_sum=0
-for i in range(1, number):
-    first = i**2
-    sum = first + sum
-
-del first
-first = 0
+secend = 0
 
 for i in range(1, number):
-    new_sum = i + new_sum
+    i = i**2
+    sum = i + secend
+    secend = sum
+
+del secend
+secend = 0
+
+for i in range(1, number):
+    new_sum = i + secend
+    secend = new_sum
 
 new_sum = new_sum**2
 javab = new_sum - sum
