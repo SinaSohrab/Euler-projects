@@ -12,4 +12,5 @@ def find_nth_prime(n):
         num += 2
     return primes[-1]
 
+
 print(find_nth_prime(10001))
