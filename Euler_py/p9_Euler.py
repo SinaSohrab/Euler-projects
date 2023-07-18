@@ -4,12 +4,8 @@ def jame_argham(number_digits):
         sum_digits += number_digits[k]
     return sum_digits
 
-def tavan(t):
-    number_digits["a"]**2
-    number_digits["b"]**2
-    number_digits["c"]**2
 
-def number_is_ok(number_digits):
+def number_is_ok(number_digits):   
     if (
         number_digits["a"]**2 < number_digits["b"]**2
         and number_digits["b"]**2 < number_digits["c"]**2
