@@ -11,5 +11,6 @@ def bozorg_tar(bg):
 
 for i in range(0, 1000):
     if bozorg_tar(i):
-        print(i)
+        for x in range(0,1000):
+            
 
