@@ -1,13 +1,16 @@
 def Condition(numbers):
-        if numbers["A"] < numbers["B"] < numbers["C"]:
-            numbers["A"] ** 2
-            numbers["B"] ** 2
-            numbers["C"] ** 2
-            if numbers["A"] + numbers["B"] + numbers["C"] == 1000:
-                return True
+    if (
+        numbers["A"] < numbers["B"] < numbers["C"]
+        and numbers["A"] ** 2
+        and numbers["B"] ** 2
+        and numbers["C"] ** 2
+        and numbers["A"] + numbers["B"] == numbers["C"]
+        and numbers["A"] + numbers["B"] + numbers["C"] == 1000
+    ):
+        return True
 
 
-for i in range(0, 1000):
+for i in range(0, 100000):
     this_number = str(i).zfill(3)
 
     numbers = {}
