@@ -1,11 +1,11 @@
 def Condition(numbers):
     if (
         numbers["A"] < numbers["B"] < numbers["C"]
+        and numbers["A"] + numbers["B"] + numbers["C"] == 1000
         and numbers["A"] ** 2
         and numbers["B"] ** 2
         and numbers["C"] ** 2
         and numbers["A"] + numbers["B"] == numbers["C"]
-        and numbers["A"] + numbers["B"] + numbers["C"] == 1000
     ):
         return True
 
