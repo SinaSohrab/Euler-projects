@@ -13,7 +13,7 @@ for i in range(0, 1000):
                 a = i**2
                 b = x**2
                 c = y**2
-                sum=a+b+c
-                if a + b == c :
-                    if sum==1000:
-                        print(a,b,c)
+                sum = a + b + c
+                if a + b == c:
+                    if sum == 1000:
+                        print(a, b, c)
