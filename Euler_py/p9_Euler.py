@@ -3,9 +3,9 @@ b = 0
 c = 0
 number = []
 
-for i in range(0, 1000):
-    for x in range(0, 1000):
-        for y in range(0, 1000):
+for i in range(0, 10):
+    for x in range(0, 10):
+        for y in range(0, 10):
             number.append(i)
             number.append(x)
             number.append(y)
@@ -15,5 +15,4 @@ for i in range(0, 1000):
                 c = y**2
                 sum = a + b + c
                 if a + b == c:
-                    if sum == 1000:
-                        print(a, b, c)
+                    print(a, b, c)
