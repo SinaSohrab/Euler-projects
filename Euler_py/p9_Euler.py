@@ -3,6 +3,31 @@ b = 0
 c = 0
 number = []
 
+def one(num):
+    for i in range(0,10):
+        if i+1:
+            number.append(a)
+
+for i in range(0,10):
+    if one(i):
+        print(number)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 for i in range(0, 10):
     for x in range(0, 10):
         for y in range(0, 10):
@@ -19,3 +44,4 @@ for i in range(0, 10):
                     print(a, b, c, sum1)
                     if sum1==1000:
                         print(a, b, c, sum1)
+"""
