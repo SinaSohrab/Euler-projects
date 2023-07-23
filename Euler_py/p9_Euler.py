@@ -3,22 +3,22 @@ b = 0
 c = 0
 number=[]
 
-for i in range(0, 10):
-    for x in range(0, 10):
-        for y in range(0, 10):
+for i in range(0, 1000):
+    for x in range(0, 1000):
+        for y in range(0, 1000):
             a=i
             b=x
             c=y
             if a<b and b<c:
-                i=a**2
-                x=b**2
-                y=c**2
-                number.append(i)
-                number.append(x)
-                number.append(y)
-                if i+x==y:
-                    print(number)
+                ta=a**2
+                tb=b**2
+                tc=c**2
+                jam=ta+tb
+                if jam==tc:
+                    jam_2=ta+tb+tc
+                    if jam_2==1000:
+                        print(jam_2)
 
 
-print("number ",number)
+
 
