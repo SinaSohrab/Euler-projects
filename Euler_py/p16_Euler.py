@@ -1,16 +1,13 @@
-number = 2
-t_number = 1000
+number = int(input("your number: "))
+t_number = int(input("to the power of the number: "))
 
 j_tavan = number**t_number
-
-print(j_tavan)
-
 j_tavan_str = str(j_tavan)
-print(type(j_tavan_str))
+
 sum = 0
 
 for i in j_tavan_str:
-    sum += int(i)
+    sum = int(i)+sum
 
 
 print(sum)
