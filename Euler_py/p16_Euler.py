@@ -7,7 +7,7 @@ j_tavan_str = str(j_tavan)
 sum = 0
 
 for i in j_tavan_str:
-    sum = i + sum
+    sum = int(i) + sum
 
 
 print(sum)
