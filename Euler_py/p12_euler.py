@@ -1,4 +1,4 @@
-number=7
+number=500
 def get_divisors_count(n):
     count = 0
     for i in range(1, int(n**0.5) + 1):
