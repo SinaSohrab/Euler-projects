@@ -1,0 +1,8 @@
+D:\program\Euler-projects\Euler_C#\p1\p1\bin\Debug\p1.exe.config
+D:\program\Euler-projects\Euler_C#\p1\p1\bin\Debug\p1.exe
+D:\program\Euler-projects\Euler_C#\p1\p1\bin\Debug\p1.pdb
+D:\program\Euler-projects\Euler_C#\p1\p1\obj\Debug\p1.csproj.AssemblyReference.cache
+D:\program\Euler-projects\Euler_C#\p1\p1\obj\Debug\p1.csproj.SuggestedBindingRedirects.cache
+D:\program\Euler-projects\Euler_C#\p1\p1\obj\Debug\p1.csproj.CoreCompileInputs.cache
+D:\program\Euler-projects\Euler_C#\p1\p1\obj\Debug\p1.exe
+D:\program\Euler-projects\Euler_C#\p1\p1\obj\Debug\p1.pdb
